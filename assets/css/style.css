@@ -1025,10 +1025,14 @@ ul {
 }
 
 .waves-box {
-  position: absolute;
-  top: 50%;
+  /* position: absolute;
+ top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   float: none;
   margin: 0 auto;
   padding: 20px 0px;
