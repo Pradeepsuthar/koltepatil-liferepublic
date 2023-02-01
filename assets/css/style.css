@@ -5,7 +5,6 @@
     Created          : 2021
     File Description : Main css file of the template
 *******************************************************/
-
 /**************************************
     -- Css Table of Content
     01.Generale Style
@@ -22,7 +21,6 @@
     12.Partner Logo Section Style
     13.Footer Section Style
  *************************************/
-
 /**************************************
  * 01. Generale Style
  *************************************/
@@ -116,7 +114,6 @@ button:focus {
   outline: none;
   box-shadow: none;
 }
-
 .button {
   position: relative;
   z-index: 1;
@@ -193,7 +190,6 @@ ul {
   width: 100%;
   height: 100%;
 }
-
 .d-table-cell {
   vertical-align: middle;
 }
@@ -204,7 +200,6 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .section-padding {
   padding: 50px 0;
 }
@@ -336,7 +331,6 @@ ul {
   align-items: center;
 }
 /* [ Start Overlay ] */
-
 [data-overlay-dark],
 [data-overlay-light] {
   position: relative;
@@ -436,9 +430,7 @@ ul {
   opacity: 1;
 }
 /* [ End Overlay ] */
-
 /* owl theme */
-
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 20px;
 }
@@ -465,11 +457,9 @@ ul {
   border: 2px solid #daaa73;
   transition: 0.3s;
 }
-
 /**************************************
   * 02. Preloader Area CSS
   **************************************/
-
 #preloader {
   position: fixed;
   display: flex;
@@ -480,44 +470,37 @@ ul {
   background: #fff;
   z-index: 999999;
 }
-
 #preloader .line {
   position: absolute;
   border-radius: 50%;
   border: 2px solid #fff;
   border-bottom: 2px solid #daaa73;
 }
-
 #preloader .line:nth-child(1) {
   width: 25px;
   height: 25px;
   animation: circle-anim 600ms linear infinite;
 }
-
 #preloader .line:nth-child(2) {
   width: 50px;
   height: 50px;
   animation: circle-anim 800ms linear infinite;
 }
-
 #preloader .line:nth-child(3) {
   width: 75px;
   height: 75px;
   animation: circle-anim 1000ms linear infinite;
 }
-
 #preloader .line:nth-child(4) {
   width: 100px;
   height: 100px;
   animation: circle-anim 1200ms linear infinite;
 }
-
 @keyframes circle-anim {
   to {
     transform: rotate(360deg);
   }
 }
-
 /**************************************
   * 03.Navber Area Style
   *************************************/
@@ -530,85 +513,69 @@ ul {
   z-index: 999;
   background: transparent;
 }
-
 .header-navber-area .nav-top-bar {
   background: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
 .header-navber-area .nav-top-bar .call-to-action p {
   margin: 0 13px 0 0;
   display: inline-block;
   color: #ffffff;
   font-size: 15px;
 }
-
 .header-navber-area .nav-top-bar .call-to-action p i {
   margin-right: 3px;
   font-size: 16px;
 }
-
 .header-navber-area .nav-top-bar .call-to-action p a {
   color: #ffffff;
 }
-
 .header-navber-area .nav-top-bar .call-to-action p a:hover,
 .header-navber-area .nav-top-bar .call-to-action p a:focus {
   color: #ffc107;
 }
-
 .header-navber-area .nav-top-bar .top-social {
   float: right;
   padding: 0;
   margin: 0 0 0 10px;
   list-style-type: none;
 }
-
 .header-navber-area .nav-top-bar .top-social li {
   display: inline-block;
 }
-
 .header-navber-area .nav-top-bar .top-social li a {
   color: #ffffff;
   font-size: 15px;
   margin-left: 5px;
 }
-
 .header-navber-area .nav-top-bar .top-social li a:hover,
 .header-navber-area .nav-top-bar .top-social li a:focus {
   color: #daaa73;
 }
-
 .header-navber-area .nav-top-bar .opening-hours {
   float: right;
 }
-
 .header-navber-area .nav-top-bar .opening-hours p {
   font-size: 15px;
   color: #ffffff;
   margin-bottom: 0;
 }
-
 .header-navber-area .nav-top-bar .opening-hours p i {
   margin-right: 3px;
   font-size: 16px;
 }
-
 .header-navber-area .nav-top-bar.template-color-bg {
   background: #daaa73;
   border-bottom: none;
 }
-
 .header-navber-area .nav-top-bar.template-color-bg .call-to-action p a {
   color: #ffffff;
 }
-
 .header-navber-area .nav-top-bar.template-color-bg .top-social li a {
   color: #ffffff;
 }
-
 .navbar-b {
   transition: all 0.5s ease-in-out;
   background-color: transparent;
@@ -653,7 +620,6 @@ ul {
 .navbar-b.navbar-trans .nav-link.active {
   color: #fff;
 }
-
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
   background-color: #fff;
@@ -679,7 +645,6 @@ ul {
 .navbar-b.navbar-reduce .navbar-brand {
   color: #fff;
 }
-
 .navbar-b.navbar-reduce .navbar-toggler span {
   background-color: #1b1b1b;
 }
@@ -783,7 +748,6 @@ ul {
 /**************************************
   * 04.Home Slider Style
   *************************************/
-
 .slider {
   position: relative;
 }
@@ -882,7 +846,6 @@ ul {
   padding: 6px 10px;
   border-radius: 3px;
 }
-
 .slider .control-text .swiper-nav-ctrl:after {
   font-size: 25px;
   width: 60px;
@@ -904,11 +867,9 @@ ul {
   background: #fff;
   opacity: 1;
 }
-
 /**************************************
   * 05.Services Section Style
   *************************************/
-
 .services-area .services-single-item {
   padding: 50px 35px;
   position: relative;
@@ -973,31 +934,28 @@ ul {
   margin-bottom: 20px;
 }
 .services-area .bg-1 {
-  background-image: url(../img/services/services-1.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-1.jpg);
 }
 .services-area .bg-2 {
-  background-image: url(../img/services/services-2.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-2.jpg);
 }
 .services-area .bg-3 {
-  background-image: url(../img/services/services-3.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-3.jpg);
 }
 .services-area .bg-4 {
-  background-image: url(../img/services/services-4.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-4.jpg);
 }
 .services-area .bg-5 {
-  background-image: url(../img/services/services-5.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-5.jpg);
 }
 .services-area .bg-6 {
-  background-image: url(../img/services/services-6.jpg);
+  background-image: url(https://www.koltepatil-liferepublic.com/assets/img/services/services-6.jpg);
 }
-
 /**************************************
   * 06.About Section Style
   *************************************/
-
 .about-area {
 }
-
 .about-content h2 {
   font-size: 36px;
   font-weight: 700;
@@ -1018,12 +976,10 @@ ul {
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
-
 .about-image {
   text-align: center;
   position: relative;
 }
-
 .waves-box {
   position: absolute;
   top: 50%;
@@ -1041,7 +997,6 @@ ul {
   color: #fff;
   font-weight: 600;
 }
-
 .about-image .iq-video {
   background: #fff;
   display: inline-block;
@@ -1126,16 +1081,13 @@ ul {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   }
 }
-
 /**************************************
   * 07.Projects Section Style
   *************************************/
-
 .projects-area .project-single-item {
   position: relative;
   overflow: hidden;
 }
-
 .projects-area .project-single-item img {
   -webkit-filter: none;
   filter: none;
@@ -1144,7 +1096,6 @@ ul {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 .projects-area .project-single-item:hover img {
   -webkit-filter: none;
   filter: none;
@@ -1160,7 +1111,6 @@ ul {
 .projects-area .project-single-item:hover .project-overlay-info {
   bottom: 0;
 }
-
 .projects-area .project-single-item .project-overlay-info {
   padding: 30px;
   position: absolute;
@@ -1172,7 +1122,6 @@ ul {
   transition: all 0.3s;
   text-align: center;
 }
-
 .projects-area .project-single-item .project-overlay-info .category {
   position: relative;
   color: #ffc518;
@@ -1182,7 +1131,6 @@ ul {
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
-
 .projects-area .project-single-item .project-overlay-info h5 {
   font-size: 24px;
   color: #fff;
@@ -1199,16 +1147,13 @@ ul {
   color: #fff;
   font-size: 25px;
 }
-
 /**************************************
   * 08.Testimonial Section Style
   *************************************/
-
 .testimonial-area {
   position: relative;
   z-index: 1;
 }
-
 .testimonial-area .owl-stage-outer {
   margin: 0 -8px;
   padding-left: 8px;
@@ -1238,24 +1183,19 @@ ul {
   border-style: solid;
   border-width: 15px;
 }
-
 .testimonial-content-inner .testimonial-text p {
 }
-
 .testimonial-text .rating-box {
   margin-top: 10px;
 }
-
 .testimonial-text .rating-box h6 {
   font-size: 15px;
   font-weight: 700;
   color: #777;
 }
-
 .testimonial-text .rating-box ul li {
   display: inline-block;
 }
-
 .testimonial-text .rating-box ul li i {
   color: #ffce39;
   font-size: 15px;
@@ -1285,12 +1225,10 @@ ul {
   font-size: 20px;
   font-weight: 700;
 }
-
 .testimonial-content-inner .author-info-box span {
   font-size: 16px;
   font-weight: 500;
 }
-
 .testimonial-area .owl-theme .owl-nav.disabled + .owl-dots {
   position: unset;
   right: 0;
@@ -1301,18 +1239,14 @@ ul {
 .testimonial-area .owl-theme .owl-dots .owl-dot span {
   background-color: #ddd;
 }
-
 /**************************************
   * 09. Team Section Style
   *************************************/
-
 .team-area {
 }
-
 .team-area .section-title {
   margin-bottom: 35px;
 }
-
 .single-team-box {
   margin-top: 30px;
   overflow: hidden;
@@ -1325,7 +1259,6 @@ ul {
   border-radius: 3px;
   overflow: hidden;
 }
-
 .team-image::before {
   content: "";
   position: absolute;
@@ -1345,21 +1278,18 @@ ul {
   opacity: 0.8;
   visibility: visible;
 }
-
 .single-team-box .team-image img {
   width: 100%;
   height: auto;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .single-team-box:hover .team-image img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-
 .team-social-icon {
   position: absolute;
   z-index: 5;
@@ -1371,7 +1301,6 @@ ul {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
 .team-social-icon a {
   padding: 5px 5px;
   color: #fff;
@@ -1397,7 +1326,6 @@ ul {
   -o-transform: scale(1);
   transform: scale(1);
 }
-
 .team-info {
   padding: 20px 15px 0px;
   text-align: center;
@@ -1415,37 +1343,30 @@ ul {
   font-weight: 400;
   display: block;
 }
-
 /**************************************
   * 10.Blog Section Style
   *************************************/
-
 .blog-area {
   background: #fbfbfb;
 }
 .blog-area .section-title {
   margin-bottom: 35px;
 }
-
 .blog-slingle-item {
   margin-top: 30px;
 }
-
 .blog-area .blog-slingle-item .post-img {
   overflow: hidden;
   position: relative;
 }
-
 .blog-slingle-item .post-img img {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .blog-slingle-item .post-img:hover img {
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
 }
-
 .blog-slingle-item .blog-content-info {
   padding: 20px 20px 0 0;
 }
@@ -1479,25 +1400,20 @@ ul {
   padding-right: 5px;
   letter-spacing: 4px;
 }
-
 /**************************************
   * 11. Contact Section Style
   *************************************/
-
 .contact-area {
 }
 .contact-area .section-title {
   margin-bottom: 35px;
 }
-
 .contact-form-box {
   margin-top: 70px;
 }
-
 .form-input-box {
   position: relative;
 }
-
 .contact-area .form input,
 .contact-area .form textarea {
   width: 100%;
@@ -1515,22 +1431,18 @@ ul {
   max-height: 300px;
   max-width: 100%;
 }
-
 #contact-form .contact-btn-box {
   text-align: center;
 }
-
 #contact-form .contact-btn-box .button {
   margin: 0;
 }
 .form-group {
   margin-bottom: 25px;
 }
-
 .contact-form .form-group {
   margin-bottom: 30px;
 }
-
 button,
 input,
 textarea:focus {
@@ -1543,7 +1455,6 @@ textarea:focus {
   border: 1px solid #f3f3f3;
   margin-top: 30px;
 }
-
 .single-store-location h3 {
   color: #daaa73;
   font-size: 22px;
@@ -1563,7 +1474,6 @@ textarea:focus {
   margin-top: 10px;
   font-weight: 400;
 }
-
 .social-media-icon {
   margin-top: 10px;
 }
@@ -1587,7 +1497,6 @@ textarea:focus {
   transition: all ease 0.3s;
   -webkit-transition: all ease 0.3s;
 }
-
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #333;
@@ -1604,7 +1513,6 @@ textarea:focus {
   /* Firefox 18- */
   color: #333;
 }
-
 .contact-area .form-message.success {
   background: #03b103;
   color: #fff;
@@ -1621,11 +1529,9 @@ textarea:focus {
   display: block;
   margin-bottom: 15px;
 }
-
 /**************************************
   * 12.Partner Logo Section Style
   *************************************/
-
 .partner-item {
   padding: 5px 40px;
   display: inline-block;
@@ -1637,16 +1543,13 @@ textarea:focus {
   width: inherit !important;
   margin: 0 auto;
 }
-
 .partner-area .partner-carousel img:hover {
   opacity: 1;
   cursor: pointer;
 }
-
 /**************************************
   * 13.Footer Section Style
   *************************************/
-
 .footer-area {
   padding: 30px 0;
   background-color: #121215;
@@ -1666,7 +1569,6 @@ textarea:focus {
 .footer-area .footer-link ul li a {
   color: #ffffff;
 }
-
 .footer-area .footer-link ul li:first-child {
   padding-left: 0;
 }
@@ -1724,18 +1626,15 @@ iframe {
   opacity: 0;
   transition: all 0.3s ease-in-out 0s;
 }
-
 .button-custom:hover,
 .button-custom:focus {
   color: #313133;
   transform: translateY(-6px);
 }
-
 .button-custom:hover::before,
 .button-custom:focus::before {
   opacity: 1;
 }
-
 .button-custom::after {
   content: "";
   width: 30px;
@@ -1749,13 +1648,11 @@ iframe {
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite;
 }
-
 .button-custom:hover::after,
 .button-custom:focus::after {
   animation: none;
   display: none;
 }
-
 @keyframes ring {
   0% {
     width: 30px;
@@ -1769,7 +1666,7 @@ iframe {
   }
 }
 #highlights {
-  background: url("../img/background.jpg?t=125");
+  background: url("https://www.koltepatil-liferepublic.com/assets/img/background.jpg?t=125");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -1786,14 +1683,12 @@ iframe {
   border-bottom-right-radius: 10px;
   font-size: 20px;
 }
-
 .many {
   margin-top: -100px;
 }
 .table .button {
   margin-top: 0px !important;
 }
-
 .stickyBtn .btn-custom {
   position: fixed;
   float: right;
@@ -1809,7 +1704,6 @@ iframe {
 .floating-mobile {
   display: none;
 }
-
 .mobile {
   display: none !important;
 }
